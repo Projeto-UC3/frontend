@@ -1,7 +1,7 @@
 import styles from '../Buttons/SecundaryButton.module.css'
 function SecundaryButton({ text, icon }) {
     return (
-        <div >
+        <div className={styles.btn2}>
             <p>{text}</p>
             <img src={icon} alt="" />
         </div>
