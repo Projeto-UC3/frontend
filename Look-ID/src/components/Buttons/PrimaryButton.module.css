@@ -12,6 +12,10 @@
     margin-top: 30px;
 }
 
+.btn1:hover {
+    cursor: pointer;
+}
+
 .text {
     margin-left: 13px;
 }
