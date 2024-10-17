@@ -1,4 +1,4 @@
-import '../section/Section.module.css'
+import styles from '../section/Section.module.css'
 import SecundaryButton from '../Buttons/SecundaryButton'
 function Section() {
     return(
@@ -6,12 +6,14 @@ function Section() {
             <section>
                 <h1>Sistema de Cadastro de Estudantes</h1>
                 <label htmlFor="nome">Cadastrar Novo Aluno:</label><br />
-                <div className='buttt'>
+                <div className={styles.buttt}>
                     <input type="text" name="nome" id="nome" placeholder='Nome do aluno:'/>
-                    <SecundaryButton text="Cadastrar Aluno"/>
+                    <div>   
+                        <SecundaryButton text="Cadastrar Aluno"/>
+                    </div>
                 </div>
 
-                <div className='buttt'>
+                <div >
                     <h2>Validação</h2>
                     <SecundaryButton text="Validar acesso"/>
                 </div>
