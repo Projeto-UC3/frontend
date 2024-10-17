@@ -1,4 +1,5 @@
 import styles from '../Buttons/SecundaryButton.module.css'
+
 function SecundaryButton({ text, icon }) {
     return (
         <div className={styles.btn2}>
