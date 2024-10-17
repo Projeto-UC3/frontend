@@ -5,6 +5,12 @@ function NavBar() {
         <nav className={styles.navbar}>
             <PrimaryButton
                 text='Cadastrar Aluno' />
+            <PrimaryButton
+                text='Validação' />
+            <PrimaryButton
+                text='Lista de Alunos' />
+            <PrimaryButton
+                text='Alterar Senha' />
 
         </nav>
     )
