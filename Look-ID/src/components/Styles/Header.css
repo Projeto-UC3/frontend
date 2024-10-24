@@ -6,7 +6,21 @@ header {
     border-radius: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img{
+    width: 200px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
 }
 
 ul {
@@ -46,4 +60,83 @@ ul li {
     background: var(--secondary-color);
     width: 100px;
     color: #000;
+}
+.parte-home {
+    display: flex;
+    flex-direction: column;
+}
+.parte-home img {
+    width: 500px;
+}
+.classe-numero1 > h1 {
+    width: 500px;
+}
+.classe1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 40px;
+    justify-content: space-around;
+}
+.paragrafo-img > p {
+    margin-top: 20px;
+    font-weight: 800;
+    width: 400px;
+    font-size: 1.3em;
+    color: #003366;
+}
+.paragrafo-img > h1 {
+    width: 500px;
+}
+
+.classe-numero1 > p {
+    margin-top: 20px;
+    font-weight: 800;
+    width: 400px;
+    font-size: 1.3em;
+    color: #003366;
+}
+.classe02 {
+    height: 300px;
+}
+.alouuu > div > img {
+    width: 280px;
+}
+.alouuu p {
+    margin-top: 20px;
+    text-align: center;
+    width: 350px;
+    font-size: 1.3em;
+}
+.alouuu {
+    background-color: var(--tertiary-color); 
+    border-radius: 20px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+}
+.parte-cads {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 30px;
+
+}
+.parte-cads h1 {
+    text-align: center;
+}
+
+.parte-cads > div {
+    border-radius: 100px;
+}
+.titulo-hompage {
+    margin-top: 80px;
+}
+.titulo-hompage h1 {
+    text-align: center;
 }
