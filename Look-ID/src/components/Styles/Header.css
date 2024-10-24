@@ -23,7 +23,7 @@ a {
     text-decoration: none;
 }
 
-ul {
+.link-nav {
     display: flex;
     list-style-type: none;
     align-items: center;

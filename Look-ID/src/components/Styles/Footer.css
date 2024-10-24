@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    background-color: var(--primary-color);
+    justify-content: space-evenly;
+    height: 300px;
+    margin-top: 150px;
+}
+.footeerr {
+    display: flex;
+    flex-direction: column;
+}

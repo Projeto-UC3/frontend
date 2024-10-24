@@ -2,7 +2,7 @@ import NavBar from './components/navBar/NavBar'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './components/header/Header';
-import Section from './components/section/Section';
+import Footer from './components/footer/Footer';
 function App() {
   return (
 
@@ -12,6 +12,7 @@ function App() {
         <Routes>
           <Route path='Doe' element={<NavBar/>} />
         </Routes>
+        <Footer></Footer>
       </Router>
     </main>
   )

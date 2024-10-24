@@ -9,7 +9,7 @@ function Header() {
                     <img src="assets/images/logo-look.svg" alt="" />
                 </div>
                 <nav>
-                    <ul>
+                    <ul className='link-nav'>
                         <li><Link to='/'>Quem somos</Link></li>
                         <li><Link to='/'>Serviços</Link></li>
                         <li><Link to='/'>Contato</Link></li>
