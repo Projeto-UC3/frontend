@@ -36,7 +36,7 @@ function Header() {
                     </div>
                     <div className='paragrafo-img'>
                         <h1>O QUE FAZEMOS?</h1>
-                        <p>Em uma escola onde a segurança dos alunos é sempre uma prioridade, o Nexus oferece uma solução ao seu alcance. Com nossa plataforma inovadora, você acompanha a segurança em tempo real com apenas um clique!</p>
+                        <p>Em uma escola onde a segurança dos alunos é sempre uma prioridade, o Look_ID oferece uma solução ao seu alcance. Com nossa plataforma inovadora, você acompanha a segurança em tempo real com apenas um clique!</p>
                     </div>
                 </div>
                     <div className='titulo-hompage'>
