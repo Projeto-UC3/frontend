@@ -13,7 +13,6 @@ import Style from './Servicos.module.css'
 function Servicos() {
     return (
         <>
-            
             <section className={Style.area_imagem}>
                 <img className={Style.imagemServicos} src={imagemServicos} alt="Segurança que se destaca: vigilância escolar em tempo real, com clareza e precisão." />
             </section>

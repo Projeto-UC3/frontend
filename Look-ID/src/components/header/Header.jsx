@@ -12,6 +12,7 @@ function Header() {
                         <li><Link to='Somos'>Quem somos</Link></li>
                         <li><Link to='Servicos'>Serviços</Link></li>
                         <li><Link to='/'>Contato</Link></li>
+                        <li><Link to='Frequencia'>Freqencia</Link></li>
                     </ul>
                 </nav>
                 <div className='button'>
