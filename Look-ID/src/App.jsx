@@ -16,12 +16,13 @@ function App() {
         <Routes>
           <Route path='Doe' element={<NavBar/>} />
           <Route path='/' element={<Corpo/>} />
+          <Route path="/QuemSomos" element={<QuemSomos/>} />
           <Route path='Servicos' element={<Servicos/>} />
           <Route path='Somos' element={<QuemSomos/>} />
         </Routes>
         <Footer/>
       </Router>
-    </main>
+     </main>
   )
 }
 

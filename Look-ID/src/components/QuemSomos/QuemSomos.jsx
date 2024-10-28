@@ -14,7 +14,7 @@ export default function QuemSomos() {
 
       <div className="quemSomosBody">
         <div className="bg">
-          <img src={quemSomos} alt="" />
+          {/* <img src='src\components\QuemSomos\Vector.png' alt="" /> */}
         </div>
 
         <div className="conteudo-quem-somos">
