@@ -14,6 +14,13 @@ body{
 .h1-h1{
     background: url('./Vector.png');
 }
+.titulo_quemsomos{
+    color: #036;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .quemSomosBody{
     max-width: 100%;
@@ -24,13 +31,14 @@ body{
 .conteudo-quem-somos{
     position: relative;
     z-index: 1;
-    top: 410px;
+    top: 110px;
     gap: 90px;
     display: flex;
     flex-direction: column;
     width:  100%;
     height:280vh;
     align-items: center;
+
 
 }
 
@@ -60,14 +68,17 @@ body{
 
 .missao-quem-somos > .img-missao > h2{
     padding-top: 20px;
-    font-size:  44px;
+    font-size:  36px;
     color: white;
 }
 
 .missao-quem-somos > .text{
     width: 60%;
-    font-size: 36px;
+    font-size: 30px;
     color: white;
+    font-weight: 400;
+    line-height: normal;
+
 }
 
 .visao-quem-somos{
@@ -90,13 +101,13 @@ body{
 
 .visao-quem-somos > .imgs-visao > h2{
     padding-top: 10px;
-    font-size: 44px;
+    font-size: 36px;
     color: #003366;
 }
 
 .visao-quem-somos > .text{
     width: 60%;
-    font-size: 36px;
+    font-size: 30px;
     align-items: center;
     color: #003366;
 }
@@ -121,13 +132,13 @@ body{
 
 .valores-quem-somos > .imgs-valores > h2{
     padding-top: 10px;
-    font-size: 44px;
+    font-size: 36px;
     color: white;
 }
 
 .valores-quem-somos > .text{
     width: 60%;
-    font-size: 36px;
+    font-size: 30px;
     align-items: center;
     color: white;
 }
@@ -137,6 +148,7 @@ body{
     height: 800px;
     display: flex;
 }
+
 
 .nossa-equipe-quem-somos > img{
     width: 50%;
@@ -158,7 +170,7 @@ body{
 }
 
 .nossa-equipe-texts h2{
-    font-size: 76px;
+    font-size: 56px;
     color: #003366;
 
 }
