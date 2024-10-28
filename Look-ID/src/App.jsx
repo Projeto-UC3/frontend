@@ -6,7 +6,7 @@ import Header from './components/header/Header';
 import NavBar from './components/navBar/NavBar';
 import Servicos from "./components/Servicos/Servicos";
 import QuemSomos from "./components/QuemSomos/QuemSomos";
-import Aluno from "./components/freq_aluno/components/section/Aluno";
+import Aluno from "./components/freq_aluno/Pages/Freq_aluno";
 
 function App() {
   return (

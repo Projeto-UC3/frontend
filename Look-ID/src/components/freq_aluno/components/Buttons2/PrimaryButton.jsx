@@ -1,4 +1,4 @@
-import styles from '../Buttons/PrimaryButton.module.css'
+import styles from './PrimaryButton.module.css'
 function PrimaryButton({ icon, text }) {
     return (
         <div className={styles.btn1}>
