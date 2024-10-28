@@ -6,7 +6,6 @@ import Header from './components/header/Header';
 import NavBar from './components/navBar/NavBar';
 import Servicos from "./components/Servicos/Servicos";
 import QuemSomos from "./components/QuemSomos/QuemSomos";
-import FreqAluno from "./components/freq_aluno/FreqAluno";
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
           <Route path='/' element={<Corpo/>} />
           <Route path='Servicos' element={<Servicos/>} />
           <Route path='Somos' element={<QuemSomos/>} />
-          <Route path='Frequencia' element={<FreqAluno/>} />
         </Routes>
         <Footer/>
       </Router>
