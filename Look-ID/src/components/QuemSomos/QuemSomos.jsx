@@ -1,7 +1,7 @@
 import missao from '/public/assets/images/missao.png'
 import visao from '/public/assets/images/visao.png'
 import valores from '/public/assets/images/valores.png'
-import quemSomos from "../QuemSomos/Vector.png";
+// import quemSomos from "../QuemSomos/Vector.png";
 
 import "../Styles/Header.css";
 import "./quemSomos.css";
@@ -11,10 +11,9 @@ export default function QuemSomos() {
   return (
     <>
       
-
       <div className="quemSomosBody">
         <div className="bg">
-          <img src={quemSomos} alt="" />
+          {/* <img src='src\components\QuemSomos\Vector.png' alt="" /> */}
         </div>
 
         <div className="conteudo-quem-somos">

@@ -23,7 +23,7 @@ function App() {
         </Routes>
         <Footer/>
       </Router>
-    </main>
+     </main>
   )
 }
 
