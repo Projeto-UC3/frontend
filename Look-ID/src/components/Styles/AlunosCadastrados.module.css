@@ -1,0 +1,58 @@
+.container {
+  padding: 50px;
+  top: 100px;
+  color: #003366;
+  h1 {
+    font-size: 64px;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin-top:50px;
+}
+.salas {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  appearance: none;
+  font-size: 20px;
+  border-radius: 12px;
+}
+input::placeholder {
+  color: white; /* Cor do placeholder */
+  opacity: 1; /* Torna o placeholder totalmente opaco */
+}
+.title{
+    margin-top:50px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.title2{
+    width:47%;
+    display:flex;
+    justify-content:space-between;
+    margin-right:5%;
+}
+.alunos{
+    padding:20px;
+    border-radius:12px;
+    display:flex;
+    justify-content:space-between;
+    font-size: 20px;
+    overflow-y:hidden;
+    background-color:#F19953;
+    margin-top:5px;
+}
+.ra{
+    width:50%;
+    display:flex;
+    justify-content:space-between;
+    margin-right:5%;
+}
