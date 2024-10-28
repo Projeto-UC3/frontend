@@ -13,24 +13,7 @@ import Style from './Servicos.module.css'
 function Servicos() {
     return (
         <>
-            <header>
-                <div className='logo'>
-                    <img src="assets/images/logo-look.svg" alt="" />
-                </div>
-                <nav>
-                    <ul className='link-nav'>
-                        <li><Link to='/'>Quem somos</Link></li>
-                        <li><Link to='/'>Serviços</Link></li>
-                        <li><Link to='/'>Contato</Link></li>
-                    </ul>
-                </nav>
-                <div className='button'>
-                    <div className='button-1'>Cadastre-se</div>
-                    <div className='button-2'>Entrar</div>
-                </div>
-
-            </header>
-
+            
             <section className={Style.area_imagem}>
                 <img className={Style.imagemServicos} src={imagemServicos} alt="Segurança que se destaca: vigilância escolar em tempo real, com clareza e precisão." />
             </section>
