@@ -1,19 +1,19 @@
-import Style from './Servicos.module.css'
-import '../Styles/Header.css'
 import { Link } from 'react-router-dom'
 import imagemServicos from '../../../public/assets/images/img-servicos.png'
+import Professor from '../../../public/assets/images/professor_servicos.png'
+import Relatorio from '../../../public/assets/images/relatorio_camera.png'
+import Alunos from '../../../public/assets/images/servicos_aluno.png'
+import Camera from '../../../public/assets/images/servicos_camera.png'
 import ImagemMonitoramento from '../../../public/assets/images/servicos_monitoramento.png'
 import ImagemPresenca from '../../../public/assets/images/servicos_presenca.png'
 import ImagemTranquilidade from '../../../public/assets/images/servicos_tranquilidade_pais.png'
-import Alunos from '../../../public/assets/images/servicos_aluno.png'
-import Camera from '../../../public/assets/images/servicos_camera.png'
-import Relatorio from '../../../public/assets/images/relatorio_camera.png'
-import Professor from '../../../public/assets/images/professor_servicos.png'
+import '../Styles/Header.css'
+import Style from './Servicos.module.css'
 
-function Servicos(){
-    return(
-       <>
-       <header>
+function Servicos() {
+    return (
+        <>
+            <header>
                 <div className='logo'>
                     <img src="assets/images/logo-look.svg" alt="" />
                 </div>
@@ -65,7 +65,7 @@ function Servicos(){
 
             <section className={Style.seguranca_aluno}>
 
-                
+
                 <img className={Style.alunos} src={Alunos} alt="Alunos estudando" />
 
                 <div className={Style.topicos_seguranca}>
@@ -87,7 +87,7 @@ function Servicos(){
                 </div>
             </section>
 
-            </>
+        </>
     )
 }
 
