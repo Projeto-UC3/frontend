@@ -2,11 +2,12 @@ import NavBar from './components/navBar/NavBar'
 import './App.css'
 import Section from './components/section/Section'
 import Header from './components/header/Header'
+import AlunosCadastrados from './components/pages/AlunosCadastrados'
 function App() {
   return (
     <main>
       <NavBar />
-      <Section/>
+      <AlunosCadastrados/>
     </main>
   )
 }
