@@ -1,5 +1,5 @@
 .container {
-  padding: 50px;
+  padding: 70px;
   top: 100px;
   color: #003366;
   h1 {
@@ -15,14 +15,19 @@
   display: flex;
   justify-content: space-between;
   margin-top:50px;
+  align-items:center;
 }
 .salas {
   background-color: #003366;
   color: white;
-  padding: 20px;
+  padding: 10px;
   appearance: none;
   font-size: 20px;
   border-radius: 12px;
+  display:flex;
+  text-decoration:none;
+  border:0px;
+  outline:none;
 }
 input::placeholder {
   color: white; /* Cor do placeholder */
