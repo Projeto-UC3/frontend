@@ -2,10 +2,12 @@ import Style from "../Styles/AlunosCadastrados.module.css";
 import Alunos from "./AlunosComponent";
 import Lupa from "../../../public/assets/images/search.svg";
 import Seta from "../../../public/assets/images/angle-down.svg";
+import Sair from '../Buttons/LeaveButton'
 function AlunosCadastrados() {
 
   return (
     <section className={Style.container}>
+      <div className={Style.sair}><Sair/></div>
       <h1>Lista de Alunos Cadastrados</h1>
       <div className={Style.line}>
         <div>
@@ -40,7 +42,17 @@ function AlunosCadastrados() {
           <h3>Turma</h3>
         </div>
       </div>
-      <div>
+      <div className={Style.alunosSection}>
+        <Alunos
+          nome={"Gabriel Almeida Costa"}
+          ra={"123.456.789-0/SP"}
+          turma={"2° ano B"}
+        />
+        <Alunos
+          nome={"Gabriel Almeida Costa"}
+          ra={"123.456.789-0/SP"}
+          turma={"2° ano B"}
+        />
         <Alunos
           nome={"Gabriel Almeida Costa"}
           ra={"123.456.789-0/SP"}
