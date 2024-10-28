@@ -9,7 +9,7 @@ function Header() {
                 </div>
                 <nav>
                     <ul className='link-nav'>
-                        <li><Link to='/'>Quem somos</Link></li>
+                        <li><Link to='Somos'>Quem somos</Link></li>
                         <li><Link to='Servicos'>Serviços</Link></li>
                         <li><Link to='/'>Contato</Link></li>
                     </ul>

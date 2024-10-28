@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import NavBar from './components/navBar/NavBar';
 import Servicos from "./components/Servicos/Servicos";
+import QuemSomos from "./components/QuemSomos/QuemSomos";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='Doe' element={<NavBar/>} />
           <Route path='/' element={<Corpo/>} />
           <Route path='Servicos' element={<Servicos/>} />
+          <Route path='Somos' element={<QuemSomos/>} />
         </Routes>
         <Footer/>
       </Router>

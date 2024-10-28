@@ -6,33 +6,11 @@ import quemSomos from "../QuemSomos/Vector.png";
 import "../Styles/Header.css";
 import "./quemSomos.css";
 
-import { Link } from "react-router-dom";
 
 export default function QuemSomos() {
   return (
     <>
-      <header>
-        <div className="logo">
-          <img src="assets/images/logo-look.svg" alt="" />
-        </div>
-        <nav>
-          <ul className="link-nav">
-            <li>
-              <Link to="/">Quem Somos</Link>
-            </li>
-            <li>
-              <Link to="/">Serviços</Link>
-            </li>
-            <li>
-              <Link to="/">Contato</Link>
-            </li>
-          </ul>
-        </nav>
-        <div className="button">
-          <div className="button-1">Cadastre-se</div>
-          <div className="button-2">Entrar</div>
-        </div>
-      </header>
+      
 
       <div className="quemSomosBody">
         <div className="bg">
