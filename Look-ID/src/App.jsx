@@ -1,17 +1,17 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import './App.css';
+import "./App.css";
 import Corpo from "./components/header/Corpo";
-import Footer from './components/footer/Footer';
-import Header from './components/header/Header';
-import NavBar from './components/navBar/NavBar';
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import NavBar from "./components/navBar/NavBar";
 import Servicos from "./components/Servicos/Servicos";
 import QuemSomos from "./components/QuemSomos/QuemSomos";
+import Beneficios from "./components/Beneficios/Beneficios";
 
 function App() {
   return (
-
-    <main className='h1-h1'>
-      <Router>
+    <main className="h1-h1">
+      {/* <Router>
         <Header />
         <Routes>
           <Route path='Doe' element={<NavBar/>} />
@@ -20,9 +20,10 @@ function App() {
           <Route path='Somos' element={<QuemSomos/>} />
         </Routes>
         <Footer/>
-      </Router>
-     </main>
-  )
+      </Router> */}
+      <Beneficios />
+    </main>
+  );
 }
 
-export default App
+export default App;
