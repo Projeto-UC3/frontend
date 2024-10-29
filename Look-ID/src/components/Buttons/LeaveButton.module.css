@@ -1,0 +1,15 @@
+.sair {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: inline-flex;
+  padding: 12px;
+  align-items: center;
+  gap: 16px;
+  color: #003366;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  cursor: pointer;
+  background-color: #f19953;
+  border-radius: 20px;
+}
