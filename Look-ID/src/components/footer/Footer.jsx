@@ -16,7 +16,7 @@ function Footer() {
                 </ul>
             </div>
             <div></div>
-            <div>
+            <div className='footeerr'>
                 <ul>
                     <li>Sobre nós</li>
                     <li>Funcionalidades</li>

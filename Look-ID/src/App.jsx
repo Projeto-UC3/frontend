@@ -1,8 +1,11 @@
-import NavBar from './components/navBar/NavBar'
-import './App.css'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from './components/header/Header';
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import './App.css';
+import Corpo from "./components/header/Corpo";
 import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import NavBar from './components/navBar/NavBar';
+import Servicos from "./components/Servicos/Servicos";
+import QuemSomos from "./components/QuemSomos/QuemSomos";
 
 function App() {
   return (
@@ -12,10 +15,13 @@ function App() {
         <Header />
         <Routes>
           <Route path='Doe' element={<NavBar/>} />
+          <Route path='/' element={<Corpo/>} />
+          <Route path='Servicos' element={<Servicos/>} />
+          <Route path='Somos' element={<QuemSomos/>} />
         </Routes>
-        <Footer></Footer>
+        <Footer/>
       </Router>
-    </main>
+     </main>
   )
 }
 
