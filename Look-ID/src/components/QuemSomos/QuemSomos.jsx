@@ -17,7 +17,7 @@ export default function QuemSomos() {
         </div>
 
         <div className="conteudo-quem-somos">
-          <h1>SEGURANÇA EM TODOS OS ANEXOS DA SUA ESCOLA</h1>
+          <h1 className="titulo_quemsomos">SEGURANÇA EM TODOS OS ANEXOS DA SUA ESCOLA</h1>
 
           <div className="missao-quem-somos">
             <div className='img-missao'>
@@ -60,6 +60,7 @@ export default function QuemSomos() {
 
             <div className='nossa-equipe-texts'>
             <h2>NOSSA EQUIPE</h2>
+            <br />
             <p>Juntos, nos unimos para desenvolver soluções que atendam às necessidades específicas das escolas e das famílias. Somos movidos pelo propósito de criar um ambiente escolar mais seguro e conectado, e acreditamos que a colaboração entre tecnologia e educação é fundamental.   </p>
             </div>
           </div>
