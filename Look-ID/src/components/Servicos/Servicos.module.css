@@ -167,6 +167,63 @@ hr{
     }
 }
 
+/*Tablet*/
+@media (min-width: 481px) and (max-width: 768px){
+    .imagemServicos{
+        width: 90%;
+    }
+
+    .nossosServicos{
+        font-size: 1.8em;
+        margin-top: 10%;
+        margin-bottom: 6%;
+    }
+
+    .servicos{
+        flex-wrap: wrap;
+    }
+
+    .servicos .monitoramento{
+        margin-top: 2%;
+        margin-bottom: 10%;
+    }
+
+    .monitoramento img{
+        width: 50%;
+    }
+
+    .titulo_dos_servicos{
+        font-size: 1.5em;
+    }
+
+    .descricao_servicos{
+        font-size: 1.2em;
+    }
+
+    .titulo_seguranca_aluno{
+        font-size: 1.8em;
+    }
+
+    .seguranca_aluno{
+        flex-wrap: wrap;
+    }
+
+    .alunos{
+        width: 100%;
+        margin: auto;
+    }
+
+    .conjunto_topicos img{
+        width: 20%;
+        margin-left:-5vh;
+    }
+
+    .topico{
+        font-size: 1.2em;
+    }
+}
+
+
 /*laptops*/
 @media (min-width: 769px) and (max-width: 1024px){
     .imagemServicos{
@@ -228,4 +285,5 @@ hr{
         width: 15%;
     }
 }
+
 
