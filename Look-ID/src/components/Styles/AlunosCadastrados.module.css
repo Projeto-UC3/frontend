@@ -1,7 +1,9 @@
 .container {
   position: relative;
+  width: 80%;
   padding-inline: 70px;
   color: #003366;
+  gap: 10px;
   overflow: hidden;
   height: inherit;
 
@@ -10,21 +12,25 @@
     font-weight: 600;
     white-space: nowrap;
   }
+
   h3 {
     font-size: 36px;
     font-weight: 500;
   }
 }
+
 .sair {
   display: flex;
   justify-content: right;
 }
+
 .line {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
   align-items: center;
 }
+
 .salas {
   background-color: #003366;
   color: white;
@@ -37,22 +43,28 @@
   border: 0px;
   outline: none;
 }
+
 input::placeholder {
-  color: white; /* Cor do placeholder */
-  opacity: 1; /* Torna o placeholder totalmente opaco */
+  color: white;
+  /* Cor do placeholder */
+  opacity: 1;
+  /* Torna o placeholder totalmente opaco */
 }
+
 .title {
   margin-top: 50px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
 .title2 {
   width: 47%;
   display: flex;
   justify-content: space-between;
   margin-right: 5%;
 }
+
 .alunos {
   padding: 20px;
   border-radius: 12px;
@@ -63,24 +75,38 @@ input::placeholder {
   background-color: #f19953;
   margin-top: 5px;
 }
+
 .ra {
   width: 50%;
   display: flex;
   justify-content: space-between;
   margin-right: 5%;
 }
+
 .alunosSection {
   height: 280px;
   overflow-y: scroll;
+}
+.mainContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px; /* Espaço entre a NavBar e a seção */
+  width: 100%;
 }
 
 @media only screen and (max-width: 1200px) {
   .container {
     h1 {
-      font-size:50px;
+      font-size: 50px;
     }
+
     h3 {
-      font-size:25px;
+      font-size: 25px;
     }
   }
+}
+
+.sec-principal {
+  position: relative;
+  float: left;
 }
