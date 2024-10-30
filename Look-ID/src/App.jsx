@@ -16,7 +16,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path='/uu' element={<Section />} />
+          <Route path='/cadastro' element={<Section />} />
           <Route path='/' element={<Corpo />} />
           <Route path='/Servicos' element={<Servicos />} />
           <Route path='/Somos' element={<QuemSomos />} />

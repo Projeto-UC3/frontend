@@ -1,5 +1,5 @@
 .btn2 {
-    width: 220px;
+    width: 200px;
     height: 47px;
     border-radius: 12px;
     color: var(--primary-color);
@@ -8,4 +8,5 @@
     font-size: 23px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }

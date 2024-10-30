@@ -1,8 +1,10 @@
-
-section > .buttt {
+.buttt {
     display: flex;
-    
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
+
 input {
     padding: 15px;
     width: 400px;
@@ -10,4 +12,14 @@ input {
     border: none;
     border-radius: 20px;
     color: #fff;
+}
+
+
+
+.super-caa h1{
+    text-align: center;
+}
+
+.super-caa {
+    background-color: #fff;
 }
