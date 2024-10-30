@@ -8,6 +8,7 @@ import Servicos from "./components/Servicos/Servicos";
 import QuemSomos from "./components/QuemSomos/QuemSomos";
 import Beneficios from "./components/Beneficios/Beneficios";
 import Implementar from "./components/Implementar_escola/Implementar_escola";
+import Login from "./components/Login/Login";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='Servicos' element={<Servicos />} />
           <Route path='Somos' element={<QuemSomos />} />
           <Route path='beneficios' element={<Beneficios />} />
+          <Route path='Login' element={<Login />} />
         </Routes>
         <Implementar />
         <Footer />
