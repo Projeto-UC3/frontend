@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom'
-import imagemServicos from '../../../public/assets/images/img-servicos.png'
+
 import Professor from '../../../public/assets/images/professor_servicos.png'
 import Relatorio from '../../../public/assets/images/relatorio_camera.png'
 import Alunos from '../../../public/assets/images/servicos_aluno.png'
@@ -14,7 +13,7 @@ function Servicos() {
     return (
         <>
             <section className={Style.area_imagem}>
-                <img className={Style.imagemServicos} src={imagemServicos} alt="Segurança que se destaca: vigilância escolar em tempo real, com clareza e precisão." />
+                <img className={Style.imagemServicos} src="assets/images/img-servicos.png" alt="Segurança que se destaca: vigilância escolar em tempo real, com clareza e precisão." />
             </section>
 
             <p className={Style.nossosServicos}>Nossos Serviços</p>
@@ -45,9 +44,7 @@ function Servicos() {
 
             <p className={Style.titulo_seguranca_aluno}>Segurança do Aluno</p>
 
-            <section className={Style.seguranca_aluno}>
-
-
+            <section className={Style.seguranca_alun}>
                 <img className={Style.alunos} src={Alunos} alt="Alunos estudando" />
 
                 <div className={Style.topicos_seguranca}>
