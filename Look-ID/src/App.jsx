@@ -9,7 +9,7 @@ import Beneficios from "./components/Beneficios/Beneficios";
 import AlunosComponent from "./components/pages/AlunosCadastrados";
 import Implementar from "./components/Implementar_escola/Implementar_escola"
 import Section from "./components/section/Section";
-
+import Login from "./components/Login/Login";
 
 function App() {
   return (
@@ -18,15 +18,18 @@ function App() {
         <Header />
         <Routes>
           <Route path='/cadastro' element={<Section />} />
-          <Route path='/' element={<Corpo/>}/>
           <Route path='/Servicos' element={<Servicos />} />
-          <Route path='/Somos' element={<QuemSomos />} />
           <Route path='/frequencia' element={<AlunosComponent/>} />
           <Route path='/beneficios' element={<Beneficios />} />
           <Route path='/implementar' element={<Implementar />} />
+          <Route path='Doe' element={<NavBar />} />
+          <Route path='/' element={<Corpo />} />
+          <Route path='Somos' element={<QuemSomos />} />
+          <Route path='Login' element={<Login />} />
         </Routes>
         <Footer />
       </Router>
+      
     </main>
   );
 }
