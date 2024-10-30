@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 import user from '../../../public/assets/images/user.svg';
 import id from '../../../public/assets/images/id.svg';
 import book from '../../../public/assets/images/book.svg';
-import exit from '../../../public/assets/images/exit.svg';
 // import logo from '../../../assets/images/logotipo.svg';
 
 function NavBar() {
@@ -24,9 +23,6 @@ function NavBar() {
             </Link>
             <Link to='/lista-alunos'>
                 <PrimaryButton icon={book} text='Lista de Alunos' />
-            </Link>
-            <Link to='/alterar-senha'>
-                <PrimaryButton icon={exit} text='Alterar Senha' />
             </Link>
         </nav>
     );

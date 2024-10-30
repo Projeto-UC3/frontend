@@ -3,9 +3,10 @@
   width: 80%;
   padding-inline: 70px;
   color: #003366;
-  gap: 10px;
+  gap: 5px;
   overflow: hidden;
-  height: inherit;
+  height: 75vh;
+  margin-top: 5vh;
 
   h1 {
     font-size: 64px;
@@ -84,7 +85,7 @@ input::placeholder {
 }
 
 .alunosSection {
-  height: 280px;
+  height: 380px;
   overflow-y: scroll;
 }
 .mainContainer {

@@ -1,6 +1,21 @@
-import Styles from './Login.Module.css'
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import Styles from './Login.Module.css';
 
 function Login() {
+    const navigate = useNavigate();
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+    const handleLoginClick = () => {
+        if (email === 'admin' && password === '12345678') {
+            // Redirecionamento de página
+            navigate('/frequencia');
+        } else {
+            alert('Email ou senha incorretos.');
+        }
+    };
+
     return (
         <section className={Styles.conteudo_login}>
             <div className={Styles.fundo_login}>
@@ -13,11 +28,11 @@ function Login() {
 
                 <div className={Styles.Input_login}>
                     <h1>E-mail*</h1>
-                    <input type="email" />
+                    <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
                     <br />
                     <br />
                     <h1>Senha*</h1>
-                    <input type="password" />
+                    <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
 
                     <div className={Styles.Lembrar}>
                         <div className={Styles.box}></div>
@@ -26,11 +41,11 @@ function Login() {
                 </div>
 
                 <div className={Styles.botao_login}>
-                    <button className={Styles.buttonnn}>Entrar</button>
+                    <button className={Styles.buttonnn} onClick={handleLoginClick}>Entrar</button>
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
-export default Login
+export default Login;
