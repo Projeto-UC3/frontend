@@ -5,6 +5,7 @@ body{
 
 .area_imagem{
     display: flex;
+    margin: auto;
 }
 
 .imagemServicos{
@@ -56,7 +57,7 @@ hr{
     margin-bottom: 3%;
 }
 
-.seguranca_aluno{
+.seguranca_alun{
     display: flex;
     width: 80%;
     margin: auto;

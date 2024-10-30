@@ -1,9 +1,4 @@
-section {
-    background-color: var(--quaternary-color);
-    width: 75%;
-    
-    flex-direction: column;
-}
+
 section > .buttt {
     display: flex;
     

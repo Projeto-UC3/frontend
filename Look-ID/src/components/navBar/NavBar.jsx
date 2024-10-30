@@ -6,15 +6,18 @@ import user from '../../../public/assets/images/user.svg'
 import id from '../../../public/assets/images/id.svg'
 import book from '../../../public/assets/images/book.svg'
 import exit from '../../../public/assets/images/exit.svg'
+import { Link } from 'react-router-dom'
 // import logo from '../../../public/assets/images/logotipo.svg'
 
 function NavBar() {
     return (
         <nav className={styles.navbar}>
             {/* <img className={styles.logo} src={logo} alt="" /> */}
-            <PrimaryButton
-                icon={user}
-                text='Cadastrar Aluno' />
+            <Link to='Cadastro'>
+                <PrimaryButton
+                    icon={user}
+                    text='Cadastrar Aluno' />
+            </Link>
             <PrimaryButton
                 icon={id}
                 text='Validação' />
