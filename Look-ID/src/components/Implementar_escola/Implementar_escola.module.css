@@ -1,0 +1,74 @@
+.fundopai {
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+
+.orangebox {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 600px;
+    background-color: #F19953;
+    margin: auto;
+    top: 50px;
+    border-radius: 36px;
+}
+
+.orangetext {
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 150px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.orangeimg {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 150px;
+    margin-right: 50px;
+}
+
+.bluepai {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    margin-top: 70px;
+}
+
+.textmeio {
+    position: relative;
+    width: 70%;
+    height: auto;
+    top: 50px;
+    margin: auto;
+    align-items: center;
+    color: #036;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.imgfinal{
+    width: 100%;
+    height:auto;
+    margin-top:100px;
+}
+
+.imgfinal img{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    margin-top:10px;
+}

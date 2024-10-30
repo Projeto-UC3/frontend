@@ -7,6 +7,7 @@ import Servicos from "./components/Servicos/Servicos";
 import QuemSomos from "./components/QuemSomos/QuemSomos";
 import Beneficios from "./components/Beneficios/Beneficios";
 import AlunosComponent from "./components/pages/AlunosCadastrados";
+import Implementar from "./components/Implementar_escola/Implementar_escola"
 import Section from "./components/section/Section";
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route path='/frequencia' element={<AlunosComponent/>} />
           <Route path='/beneficios' element={<Beneficios />} />
         </Routes>
+        <Implementar/>
         <Footer />
       </Router>
     </main>
