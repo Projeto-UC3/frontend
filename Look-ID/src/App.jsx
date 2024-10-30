@@ -7,6 +7,7 @@ import NavBar from "./components/navBar/NavBar";
 import Servicos from "./components/Servicos/Servicos";
 import QuemSomos from "./components/QuemSomos/QuemSomos";
 import Beneficios from "./components/Beneficios/Beneficios";
+import Implementar from "./components/Implementar_escola/Implementar_escola";
 
 function App() {
   return (
@@ -20,8 +21,10 @@ function App() {
           <Route path='Somos' element={<QuemSomos />} />
           <Route path='beneficios' element={<Beneficios />} />
         </Routes>
+        <Implementar />
         <Footer />
       </Router>
+      
     </main>
   );
 }
