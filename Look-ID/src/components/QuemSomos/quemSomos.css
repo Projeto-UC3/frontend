@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../../../public/assets/font/Roboto-Regular.ttf)
+  }
+
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +16,7 @@ body{
     max-height: 100vh;
     overflow-x: hidden;
 }
+
 
 .h1-h1{
     background: url('./Vector.png');
@@ -45,6 +52,11 @@ body{
 .conteudo-quem-somos > h1{
     font-size: 44px;
     padding-bottom: 80px;
+}
+
+
+.conteudo-quem-somos > p{
+    font-family: Roboto !important;
 }
 
 .missao-quem-somos{
@@ -208,7 +220,8 @@ body{
     }
 
     .conteudo-quem-somos > h1{
-        font-size: 18px;
+        width: 85%;
+        font-size: 22px;
         text-align: center;
         padding-bottom: 40px;
     }
@@ -218,7 +231,6 @@ body{
     .missao-quem-somos{
         width: 90%;
         border-radius: 10px;
-        /* height: 900px !important; */
     }
 
     .missao-quem-somos > .img-missao{
@@ -228,7 +240,6 @@ body{
 
     .img-missao > img{
         width: 70px !important;
-        /* object-fit: cover; */
         height: 70px !important;
     }
 
@@ -248,8 +259,6 @@ body{
     .visao-quem-somos{
         width: 90%;
         border-radius: 10px;
-
-        /* height: 900px !important; */
     }
 
     .visao-quem-somos > .imgs-visao{
@@ -277,8 +286,6 @@ body{
     .valores-quem-somos{
         width: 90%;
         border-radius: 10px;
-
-        /* height: 900px !important; */
     }
 
     .valores-quem-somos > .imgs-visao{
@@ -288,7 +295,6 @@ body{
 
     .imgs-valores > img{
         width: 70px !important;
-        /* object-fit: cover; */
         height: 70px !important;
     }
 
@@ -312,14 +318,11 @@ body{
 
     .nossa-equipe-quem-somos > img {
         width: 100%;
-        /* border-radius: 10px !; */
         height: 300px;
     }
     
     .nossa-equipe-quem-somos > .nossa-equipe-texts{
         padding: 5px;
-        /* width: 100%; */
-        /* margin: 0 auto; */
     }
 
     .nossa-equipe-texts > h2{
@@ -329,57 +332,379 @@ body{
 
     .nossa-equipe-texts > p{
         font-size: 24px;
-        /* text-align: cs; */
+
     }
 
 
     footer{
-        /* position: absolute; */
         margin-top: 0px;
         padding: fixed;
     }
-   
 }
 
-/* Ajustes para telas muito pequenas */
-/* @media screen and (max-width: 480px) {
-
-    body{
-        height: auto;
-        background-color:#D9D9D9;
-        margin: 0 auto;
-        width: 100%;
-        overflow-y: hidden;
-
-    }
-    .conteudo-quem-somos {
-        top: -70px;
-        gap: 15px;
-        width: 50%;
-    }
-
-    .bg img{
-        display:none;
-    }
-
-    .conteudo-quem-somos > h1 {
-        font-size: 24px;
-        padding-bottom: 30px;
+@media screen and (min-width:551px) and (max-width:750px){
+    .h1-h1{
+        background-size: cover;
     }
 
     header{
-        display: none !important;
+        display: none;
     }
 
-    .missao-quem-somos,
-    .visao-quem-somos,
-    .valores-quem-somos {
-        width: 95%;
-        margin: 0 auto;
-        padding: 15px;
+    .conteudo-quem-somos{
+        width: 100%;
+        gap: 25px;
+        top: 80px;
+        height: 200vh;
+    }
+
+    .conteudo-quem-somos > h1{
+        font-size: 26px;
+        text-align: center;
+        width: 75%;
+        padding-bottom: 40px;
+    }
+
+    /* Missão */
+
+    .missao-quem-somos{
+        width: 92%;
+        border-radius: 10px;
+    }
+
+    .missao-quem-somos > .img-missao{
+        width: 30%;
+    }
+
+    .img-missao > img{
+        height: 70px !important;
+    }
+
+    .img-missao > h2{
+        font-size: 16px !important;
+    }
+
+    .missao-quem-somos > .text{
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    
+    /* Visão */
+
+    .visao-quem-somos{
+        width: 92%;
+        border-radius: 10px;
+    }
+
+    .visao-quem-somos > .imgs-visao{
+        width: 30%;
+    }
+
+    .imgs-visao > img{
+        height: 70px !important;
+    }
+
+    .imgs-visao > h2{
+        font-size: 20px !important;
+    }
+
+    .visao-quem-somos > .text{
+        font-size: 18px;
+        padding: 8px;
+    }
+
+     /* valores */
+   
+     .valores-quem-somos{
+        width: 92%;
+        border-radius: 10px;
+    }
+
+    .valores-quem-somos > .imgs-visao{
+        width: 60%;
+    }
+
+    .imgs-valores > img{
+        height: 70px !important;
+    }
+
+    .imgs-valores > h2{
+        font-size: 18px !important;
+    }
+
+    .valores-quem-somos > .text{
+        width: 60%;
+        font-size: 18px;
+        padding-left: 38spx;
+    }
+
+      /* nossa-equipe */
+
+      .nossa-equipe-quem-somos{
+        width: 94%;
+        flex-direction: column;
     }
 
     .nossa-equipe-quem-somos > img {
-        height: 200px;
+        width: 100%;
     }
-} */
+    
+    .nossa-equipe-quem-somos > .nossa-equipe-texts{
+        padding: 5px;
+    }
+
+    .nossa-equipe-texts > h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nossa-equipe-texts > p{
+        font-size: 28px;
+
+    }
+
+    footer{
+        margin-top: 0px;
+    }
+}
+
+
+@media screen and (min-width:751px) and (max-width:1000px){
+    .h1-h1{
+        background-size: cover;
+    }
+
+    .conteudo-quem-somos{
+        gap: 25px;
+        height: 200vh;
+    }
+
+    .conteudo-quem-somos > h1{
+        font-size: 28px;
+        padding-bottom: 40px;
+    }
+
+    /* Missão */
+
+    .missao-quem-somos{
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    .missao-quem-somos > .img-missao{
+        width: 30%;
+    }
+
+    .img-missao > img{
+        width: 120px !important;
+        height: 120px !important;
+    }
+
+    .img-missao > h2{
+        font-size: 32px !important;
+    }
+
+    .missao-quem-somos > .text{
+        font-size: 26px;
+        padding: 8px;
+        
+    }
+
+    
+    /* Visão */
+
+    .visao-quem-somos{
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    .visao-quem-somos > .imgs-visao{
+        width: 30%;
+    }
+
+    .imgs-visao > img{
+        height: 120px !important;
+        height: 120px !important;
+
+    }
+
+    .imgs-visao > h2{
+        font-size: 32px !important;
+    }
+
+    .visao-quem-somos > .text{
+        font-size: 26px;
+        padding: 8px;
+    }
+
+     /* valores */
+   
+     .valores-quem-somos{
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    .imgs-valores > img{
+        height: 120px !important;
+        height: 120px !important;
+    }
+
+    .imgs-valores > h2{
+        font-size: 32px !important;
+    }
+
+    .valores-quem-somos > .text{
+        font-size: 26px;
+        padding-left: 58px;
+    }
+
+      /* nossa-equipe */
+
+      .nossa-equipe-quem-somos{
+        width: 97%;
+        flex-direction: column;
+    }
+
+    .nossa-equipe-quem-somos > img {
+        width: 100%;
+    }
+    
+    .nossa-equipe-quem-somos > .nossa-equipe-texts{
+        padding: 5px;
+    }
+
+    .nossa-equipe-texts > h2{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .nossa-equipe-texts > p{
+        font-size: 28px;
+
+    }
+
+    footer{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width:1001px) and (max-width:1250px){
+    .h1-h1{
+        background-size: cover;
+    }
+
+    .conteudo-quem-somos{
+        gap: 25px;
+        height: 200vh;
+    }
+
+    .conteudo-quem-somos > h1{
+        font-size: 36px;
+        padding-bottom: 40px;
+    }
+
+    /* Missão */
+
+    .missao-quem-somos{
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    .missao-quem-somos > .img-missao{
+        width: 30%;
+    }
+
+    .img-missao > img{
+        width: 130px !important;
+        height: 130px !important;
+    }
+
+    .img-missao > h2{
+        font-size: 34px !important;
+    }
+
+    .missao-quem-somos > .text{
+        font-size: 28px;
+        padding: 8px;
+        
+    }
+
+    
+    /* Visão */
+
+    .visao-quem-somos{
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    .visao-quem-somos > .imgs-visao{
+        width: 30%;
+    }
+
+    .imgs-visao > img{
+        height: 130px !important;
+        height: 130px !important;
+
+    }
+
+    .imgs-visao > h2{
+        font-size: 34px !important;
+    }
+
+    .visao-quem-somos > .text{
+        font-size: 28px;
+        padding: 8px;
+    }
+
+     /* valores */
+   
+     .valores-quem-somos{
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    .imgs-valores > img{
+        height: 130px !important;
+        height: 130px !important;
+    }
+
+    .imgs-valores > h2{
+        font-size: 34px !important;
+        margin-top: 10px !important;
+    }
+
+    .valores-quem-somos > .text{
+        font-size: 28px;
+        padding-left: 58px;
+    }
+
+      /* nossa-equipe */
+
+      .nossa-equipe-quem-somos{
+        width: 97%;
+        margin-top: 25px;
+    }
+
+    .nossa-equipe-quem-somos > img {
+        width: 50%;
+    }
+    
+    .nossa-equipe-quem-somos > .nossa-equipe-texts{
+        padding: 5px;
+    }
+
+    .nossa-equipe-texts > h2{
+        font-size: 42px;
+    }
+
+    .nossa-equipe-texts > p{
+        font-size: 28px;
+
+    }
+
+    footer{
+        margin-top: 0px;
+    }
+}
+
