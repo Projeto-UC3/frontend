@@ -2,12 +2,14 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
 import Corpo from "./components/header/Corpo";
 import Footer from "./components/footer/Footer";
+
 import Header from "./components/header/Header";
-import NavBar from "./components/navBar/NavBar";
 import Servicos from "./components/Servicos/Servicos";
 import QuemSomos from "./components/QuemSomos/QuemSomos";
-import Beneficios from "./components/beneficios/Beneficios";
-import Implementar from "./components/Implementar_escola/Implementar_escola";
+import Beneficios from "./components/Beneficios/Beneficios";
+import AlunosComponent from "./components/pages/AlunosCadastrados";
+import Implementar from "./components/Implementar_escola/Implementar_escola"
+import Section from "./components/section/Section";
 import Login from "./components/Login/Login";
 
 function App() {
@@ -16,14 +18,15 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path='Doe' element={<NavBar />} />
+          <Route path='/cadastro' element={<Section />} />
+          <Route path='/Servicos' element={<Servicos />} />
+          <Route path='/frequencia' element={<AlunosComponent/>} />
+          <Route path='/beneficios' element={<Beneficios />} />
+          <Route path='/implementar' element={<Implementar />} />
           <Route path='/' element={<Corpo />} />
-          <Route path='Servicos' element={<Servicos />} />
           <Route path='Somos' element={<QuemSomos />} />
-          <Route path='beneficios' element={<Beneficios />} />
-          <Route path='Login' element={<Login />} />
+          <Route path='entrar' element={<Login />} />
         </Routes>
-        <Implementar />
         <Footer />
       </Router>
       

@@ -1,13 +1,10 @@
-section {
-    background-color: var(--quaternary-color);
-    width: 75%;
-    
-    flex-direction: column;
-}
-section > .buttt {
+.buttt {
     display: flex;
-    
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
+
 input {
     padding: 15px;
     width: 400px;
@@ -15,4 +12,20 @@ input {
     border: none;
     border-radius: 20px;
     color: #fff;
+}
+
+
+
+.super-caa h1{
+    text-align: center;
+}
+
+.super-caa {
+    background-color: #fff;
+}
+.alinhar-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
