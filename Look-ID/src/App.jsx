@@ -18,13 +18,13 @@ function App() {
         <Header />
         <Routes>
           <Route path='/cadastro' element={<Section />} />
-          <Route path='/' element={<Corpo />} />
+          <Route path='/' element={<Corpo/>}/>
           <Route path='/Servicos' element={<Servicos />} />
           <Route path='/Somos' element={<QuemSomos />} />
           <Route path='/frequencia' element={<AlunosComponent/>} />
           <Route path='/beneficios' element={<Beneficios />} />
+          <Route path='/implementar' element={<Implementar />} />
         </Routes>
-        <Implementar/>
         <Footer />
       </Router>
     </main>
