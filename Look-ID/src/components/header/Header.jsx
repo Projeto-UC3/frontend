@@ -18,7 +18,9 @@ function Header() {
                 </nav>
                 <div className='button'>
                     <div className='button-1'>Cadastre-se</div>
-                    <div className='button-2'>Entrar</div>
+                    <Link to='entrar'>
+                        <div className='button-2'>Entrar</div>
+                    </Link>
                 </div>
             </header>
             

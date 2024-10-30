@@ -30,7 +30,7 @@ function Login() {
                 </div>
 
                 <div className={Styles.botao_login}>
-                    <button className={Styles.button}>Entrar</button>
+                    <button className={Styles.buttonnn}>Entrar</button>
                 </div>
             </div>
         </section>

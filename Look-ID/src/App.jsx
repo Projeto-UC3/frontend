@@ -2,6 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
 import Corpo from "./components/header/Corpo";
 import Footer from "./components/footer/Footer";
+
 import Header from "./components/header/Header";
 import Servicos from "./components/Servicos/Servicos";
 import QuemSomos from "./components/QuemSomos/QuemSomos";
@@ -22,10 +23,9 @@ function App() {
           <Route path='/frequencia' element={<AlunosComponent/>} />
           <Route path='/beneficios' element={<Beneficios />} />
           <Route path='/implementar' element={<Implementar />} />
-          <Route path='Doe' element={<NavBar />} />
           <Route path='/' element={<Corpo />} />
           <Route path='Somos' element={<QuemSomos />} />
-          <Route path='Login' element={<Login />} />
+          <Route path='entrar' element={<Login />} />
         </Routes>
         <Footer />
       </Router>
