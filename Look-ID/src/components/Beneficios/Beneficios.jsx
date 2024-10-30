@@ -1,13 +1,11 @@
 import styles from "../Beneficios/Beneficios.module.css";
 import Header from "../header/Header";
-import img28 from "../../../public/assets/images/image 28.png";
 function Beneficios() {
   return (
     <>
-      <Header />
       <div className={styles.teste}>
         <div>
-          <img src={img28} alt="" />
+          <img src="assets/images/profN.png" alt="" />
         </div>
         <div>
           <h1>Por que ter nossa função na sua escola?</h1>

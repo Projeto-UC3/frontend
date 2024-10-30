@@ -11,17 +11,17 @@ import Beneficios from "./components/Beneficios/Beneficios";
 function App() {
   return (
     <main className="h1-h1">
-      {/* <Router>
+      <Router>
         <Header />
         <Routes>
-          <Route path='Doe' element={<NavBar/>} />
-          <Route path='/' element={<Corpo/>} />
-          <Route path='Servicos' element={<Servicos/>} />
-          <Route path='Somos' element={<QuemSomos/>} />
+          <Route path='Doe' element={<NavBar />} />
+          <Route path='/' element={<Corpo />} />
+          <Route path='Servicos' element={<Servicos />} />
+          <Route path='Somos' element={<QuemSomos />} />
+          <Route path='beneficios' element={<Beneficios />} />
         </Routes>
-        <Footer/>
-      </Router> */}
-      <Beneficios />
+        <Footer />
+      </Router>
     </main>
   );
 }
