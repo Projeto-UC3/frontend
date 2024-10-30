@@ -1,17 +1,19 @@
+import { Link } from 'react-router-dom'
 import '../Styles/Header.css'
-
 function Header() {
     return (
         <>
             <header>
-                <div>
-                    <img src="" alt="" />
+                <div className='logo'>
+                    <Link to='/'><img src="assets/images/logo-look.svg" alt="" /></Link>
                 </div>
                 <nav>
-                    <ul>
-                        <li>Quem somos</li>
-                        <li>Serviços</li>
-                        <li>Contato</li>
+                    <ul className='link-nav'>
+                        <li><Link to='Somos'>Quem somos</Link></li>
+                        <li><Link to='Servicos'>Serviços</Link></li>
+                        <li><Link to='/'>Contato</Link></li>
+                        <li><Link to='Aluno'>Frequência</Link></li>
+                        <li><Link to='beneficios'>Beneficios</Link></li>
                     </ul>
                 </nav>
                 <div className='button'>
@@ -19,14 +21,7 @@ function Header() {
                     <div className='button-2'>Entrar</div>
                 </div>
             </header>
-            <main>
-                <div>
-                    <h2></h2>
-                </div>
-                <div>
-                    <img src="assets/images/alunos-img.svg" alt="" />
-                </div>
-            </main>
+            
         </>
     )
 }

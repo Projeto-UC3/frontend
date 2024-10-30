@@ -1,0 +1,32 @@
+import '../Styles/Footer.css'
+
+function Footer() {
+    return(
+        <footer>
+            <div className='img-footer'>
+                <img src="assets/images/logo-footer.svg" alt="logo" />
+            </div>
+            <div className='footeerr'>
+                <ul>
+                    <li>Sobre nós</li>
+                    <li>Funcionalidades</li>
+                    <li>Termo de uso</li>
+                    <li>Manual da marca</li>
+                    <li>Política de privacidade</li>
+                </ul>
+            </div>
+            <div></div>
+            <div className='footeerr'>
+                <ul>
+                    <li>(11) 2632-4489</li>
+                    <li>(11) 1028-5678</li>
+                    <li>E-mail: brotomais@gmail.com.br</li>
+                    <li>Rua Tito, 54 - Lapa, SP </li>
+                    <li>Política de privacidade</li>
+                </ul>
+            </div>
+        </footer>
+    )
+}
+
+export default Footer
