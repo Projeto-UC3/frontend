@@ -13,15 +13,11 @@ function Login() {
 
                 <div className={Styles.Input_login}>
                     <h1>E-mail*</h1>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="600" height="74" viewBox="0 0 600 74" fill="none">
-                        <path d="M2 37C2 17.67 17.67 2 37 2H563C582.33 2 598 17.67 598 37C598 56.33 582.33 72 563 72H37C17.67 72 2 56.33 2 37Z" fill="#FEFFEA" stroke="#F19953" stroke-width="4" />
-                    </svg>
+                    <input type="email" />
                     <br />
                     <br />
                     <h1>Senha*</h1>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="600" height="74" viewBox="0 0 600 74" fill="none">
-                        <path d="M2 37C2 17.67 17.67 2 37 2H563C582.33 2 598 17.67 598 37C598 56.33 582.33 72 563 72H37C17.67 72 2 56.33 2 37Z" fill="#FEFFEA" stroke="#F19953" stroke-width="4" />
-                    </svg>
+                    <input type="password" />
 
                     <div className={Styles.Lembrar}>
                         <div className={Styles.box}></div>
