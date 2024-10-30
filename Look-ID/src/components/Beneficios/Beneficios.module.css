@@ -1,5 +1,92 @@
-.teste {
-  width: 100px;
-  heigth: 100px;
-  border-radius: 2px solid #000;
+.containerMain {
+  width: 90%;
+  margin: auto;
+}
+
+.primarySection {
+  display: flex;
+}
+
+.image {
+  width: 600px;
+  border-radius: 36px;
+}
+.conteudo {
+  width: 700px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+.titulo {
+  font-size: 2em;
+}
+.secundarySection {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.containerImage {
+  width: 30%;
+  background-color: #003366;
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerImageCenter {
+  width: 35%;
+  border-radius: 36px;
+  background-color: #f19953;
+  text-align: center;
+}
+.icones {
+  width: 300px;
+  height: 300px;
+  margin-top: 25px;
+}
+
+.tertiarySection {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6em;
+}
+.beneficio {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 3em;
+}
+.containerInfo {
+  width: 30%;
+  background-color: #003366;
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.containerInfoCenter {
+  width: 35%;
+  border-radius: 36px;
+  background-color: #f19953;
+}
+.icons {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+}
+.paragrafo {
+  width: 80%;
+  margin: auto;
+}
+.tituloTertiaty {
+  font-size: 1.3em;
 }

@@ -6,7 +6,7 @@ import Header from "./components/header/Header";
 import NavBar from "./components/navBar/NavBar";
 import Servicos from "./components/Servicos/Servicos";
 import QuemSomos from "./components/QuemSomos/QuemSomos";
-import Beneficios from "./components/Beneficios/Beneficios";
+import Beneficios from "./components/beneficios/Beneficios";
 
 function App() {
   return (
