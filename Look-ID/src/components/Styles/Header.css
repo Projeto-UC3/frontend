@@ -136,6 +136,12 @@ ul li:hover {
     text-align: center;
     width: 350px;
     font-size: 1.3em;
+    padding: 15px;
+}
+.alouuu h1 {
+    font-family: 'Bebas';
+    font-weight: normal;
+    font-size: 2.2em;
 }
 .alouuu {
     background-color: var(--tertiary-color); 
@@ -169,4 +175,7 @@ ul li:hover {
 }
 .titulo-hompage h1 {
     text-align: center;
+    font-family: 'Bebas';
+    font-weight: normal;
+    font-size: 3em;
 }

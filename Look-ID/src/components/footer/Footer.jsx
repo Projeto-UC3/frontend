@@ -36,7 +36,7 @@ function Footer() {
                         <img src="assets/images/insta.svg" alt="" />
                         <img src="assets/images/linkedin.svg" alt="" />
                     </div>
-                    <div className='footer-verdinho'>
+                    <div className='footer-verdinho' onClick={() => window.location.href = '/nome-do-arquivo.pdf'}>
                         <p>Fale Conosco</p>
                     </div>
                 </div>
