@@ -12,12 +12,11 @@ function Header() {
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='Somos'>Quem somos</Link></li>
                         <li><Link to='Servicos'>Serviços</Link></li>
-                        <li><Link to='beneficios'>Beneficios</Link></li>
-                        <li><Link to='implementar'>Implementar</Link></li>
+                        <li><Link to='beneficios'>Benefícios</Link></li>
+                        <li><Link to='implementar'>Como Funciona</Link></li>
                     </ul>
                 </nav>
                 <div className='button'>
-                    <div className='button-1'>Cadastre-se</div>
                     <Link to='entrar'>
                         <div className='button-2'>Entrar</div>
                     </Link>

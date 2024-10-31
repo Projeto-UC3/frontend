@@ -19,13 +19,14 @@ function Validar() {
       });
 
       const data = await response.json();
-      setAccessMessage(response.ok ? "Acesso liberado" : "Acesso negado");
+      // Use a mensagem retornada pela API
+      setAccessMessage(response.ok ? data.message : data.error);
     } catch (error) {
       setAccessMessage(`Erro: Acesso negado`);
       console.error("Erro na requisição:", error);
     } finally {
       setIsLoading(false);
-      setTimeout(() => setAccessMessage(""), 1500);
+      setTimeout(() => setAccessMessage(""), 2500);
     }
   };
 
@@ -38,18 +39,18 @@ function Validar() {
             <h1>Verificação de Acesso</h1>
           </div>
           <div className={Style.accessContainer}>
-            <button
-              onClick={handleAccess}
-              disabled={isLoading}
-              className={Style.button}
-            >
-              {isLoading ? "Verificando..." : "Validar Acesso"}
-            </button>
             {accessMessage && (
               <div className={Style.accessMessage}>
                 <p>{accessMessage}</p>
               </div>
             )}
+            <button
+              onClick={handleAccess}
+              disabled={isLoading}
+              className={Style.buttonValidarStudent}
+            >
+              {isLoading ? "Verificando..." : "Validar Acesso"}
+            </button>
           </div>
         </section>
       </div>

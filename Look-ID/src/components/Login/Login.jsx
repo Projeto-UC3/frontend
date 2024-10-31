@@ -4,19 +4,40 @@ import Styles from './Login.Module.css';
 
 function Login() {
     const navigate = useNavigate();
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
+    const [accessMessage, setAccessMessage] = useState('');
 
-    const handleLoginClick = () => {
-        if (email === 'admin' && password === '12345678') {
-            // Redirecionamento de página
-            navigate('/listaalunos');
-        } else {
-            alert('Email ou senha incorretos.');
+    const handleLoginClick = async () => {
+        setAccessMessage("Aguardando leitura do cartão...");
+
+        try {
+            const response = await fetch('http://localhost:5000/access-admin', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            const data = await response.json();
+            setAccessMessage(data.message || data.error);
+
+            // Se o acesso for permitido, redireciona
+            if (response.ok) {
+                setTimeout(() => {
+                    navigate('/listaalunos'); // Redireciona após 1.5 segundos
+                }, 1500);
+            }
+        } catch (error) {
+            setAccessMessage(`Erro: ${error.message}`);
         }
+
+        // Limpar a mensagem após 1.5 segundos
+        setTimeout(() => {
+            setAccessMessage('');
+        }, 1500);
     };
 
     return (
+        <div className={Styles.containerPrincipal}>
         <section className={Styles.conteudo_login}>
             <div className={Styles.fundo_login}>
                 <div className={Styles.icone}>
@@ -26,20 +47,19 @@ function Login() {
                     <h1>Entrar</h1>
                 </div>
 
+                {accessMessage && (
+                    <div id="access-message" className={Styles.accessMessage}>
+                        <p>{accessMessage}</p>
+                    </div>
+                )}
+
                 <div className={Styles.Input_login}>
-                    <h1>E-mail*</h1>
-                    <input className={Styles.Input_login1} type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
-                    <br />
-                    <br />
-                    <h1>Senha*</h1>
-                    <input className={Styles.Input_login1} type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+                    <button className={Styles.buttonnn} onClick={handleLoginClick}>Autenticar</button>
                 </div>
 
-                <div className={Styles.botao_login}>
-                    <button className={Styles.buttonnn} onClick={handleLoginClick}>Entrar</button>
-                </div>
             </div>
         </section>
+        </div>
     );
 }
 

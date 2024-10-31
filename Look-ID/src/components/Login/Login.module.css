@@ -1,6 +1,14 @@
-.conteudo_login {
+.containerPrincipal{
+    display: flex;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_login {
+    width: 60%;
+    height: 65vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,15 +84,21 @@
 
 .buttonnn{
     width: 100%;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    font-size: 30px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 4px solid var(--secondary-color);
+    padding: 10px;
+    background-color: #003366;
+    font-size: 1.4rem;
     cursor: pointer;
 }
 
 .buttonnn:hover{
-    background-color: #000000;
+    background-color: #052648;
     color: #FEFFEA;
 }
 
@@ -95,4 +109,11 @@
     stroke-width: 4px;
     stroke: #F19953;
     border-radius: 30px;
+}
+
+.accessMessage{
+    width: auto;
+    height: 10vh;
+    font-size: 2rem;
+    margin-bottom: 6vh;
 }
