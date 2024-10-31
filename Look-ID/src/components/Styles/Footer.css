@@ -2,7 +2,7 @@ footer {
     display: flex;
     background-color: var(--primary-color);
     justify-content: space-evenly;
-    height: 300px;
+    height: auto;
     margin-top: 150px;
     color: #fff;
 }
@@ -13,6 +13,9 @@ footer {
 }
 .footeerr ul {
     list-style-type: none;
+}
+.footeerr > ul > li{
+    font-weight: normal;
 }
 
 .img-footer {
