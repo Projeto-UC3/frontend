@@ -18,7 +18,7 @@ function NavBar() {
             <Link to='/cadastro'>
                 <PrimaryButton icon={user} text='Cadastrar Aluno' />
             </Link>
-            <Link to='/validacao'>
+            <Link to='/validar'>
                 <PrimaryButton icon={id} text='Validação' />
             </Link>
             <Link to='/listaalunos'>

@@ -1,10 +1,26 @@
+import React, { useEffect, useState } from "react";
 import Style from "../Styles/AlunosCadastrados.module.css";
 import Alunos from "./AlunosComponent";
-import Lupa from "../../../public/assets/images/search.svg";
 import NavBar from "../navBar/NavBar";
 
-
 function AlunosCadastrados() {
+  const [alunos, setAlunos] = useState([]);
+
+  useEffect(() => {
+    
+    fetch("http://127.0.0.1:5000/list")
+      .then((response) => response.json())
+      .then((data) => {
+        
+        const alunosFormatados = Object.keys(data).map((nome) => ({
+          nome: nome,
+          ra: data[nome],
+        }));
+        setAlunos(alunosFormatados);
+      })
+      .catch((error) => console.error("Erro ao buscar alunos:", error));
+  }, []);
+
   return (
     <section className="sec-principal">
       <div className={Style.mainContainer}>
@@ -21,16 +37,14 @@ function AlunosCadastrados() {
             </div>
           </div>
           <div className={Style.alunosSection}>
-            <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />
-            <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />
-            <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />
-            <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />
-            <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />
-            <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />
-            <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />
-            <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />
-            <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />
-            {/* Adicione outros componentes Alunos conforme necessário */}
+            {alunos.map((aluno, index) => (
+              <Alunos
+                key={index}
+                nome={aluno.nome}
+                ra={aluno.ra}
+                turma="Equipe 1"
+              />
+            ))}
           </div>
         </section>
       </div>
@@ -39,4 +53,3 @@ function AlunosCadastrados() {
 }
 
 export default AlunosCadastrados;
- 

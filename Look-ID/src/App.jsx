@@ -8,12 +8,13 @@ import QuemSomos from "./components/QuemSomos/QuemSomos";
 import Beneficios from "./components/Beneficios/Beneficios";
 import AlunosComponent from "./components/pages/AlunosCadastrados";
 import CadastrarComponent from "./components/pages/CadastrarAlunos";
+import ValidarComponent from "./components/pages/Validar";
 import Implementar from "./components/Implementar_escola/Implementar_escola"
 import Login from "./components/Login/Login";
 
 function AppContent() {
   const location = useLocation();
-  const isFrequenciaRoute = location.pathname === '/frequencia' || location.pathname === '/cadastro' || location.pathname === '/listaalunos';
+  const isFrequenciaRoute = location.pathname === '/frequencia' || location.pathname === '/cadastro' || location.pathname === '/listaalunos' || location.pathname === '/validar';
 
   return (
     <>
@@ -22,6 +23,7 @@ function AppContent() {
         <Route path='/cadastro' element={<CadastrarComponent />} />
         <Route path='/Servicos' element={<Servicos />} />
         <Route path='/listaalunos' element={<AlunosComponent />} />
+        <Route path='/validar' element={<ValidarComponent />} />
         <Route path='/beneficios' element={<Beneficios />} />
         <Route path='/implementar' element={<Implementar />} />
         <Route path='/' element={<Corpo />} />
