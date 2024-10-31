@@ -10,7 +10,7 @@ import "./quemSomos.css";
 export default function QuemSomos() {
   return (
     <>
-      
+
       <div className="quemSomosBody">
         <div className="bg">
           {/* <img src='src\components\QuemSomos\Vector.png' alt="" /> */}
@@ -21,8 +21,8 @@ export default function QuemSomos() {
 
           <div className="missao-quem-somos">
             <div className='img-missao'>
-            <img src={missao} alt="" />
-            <h2>MISSÃO</h2>
+              <img src={missao} alt="" />
+              <h2>MISSÃO</h2>
             </div>
 
             <p className='text'>
@@ -35,22 +35,22 @@ export default function QuemSomos() {
 
           <div className="visao-quem-somos">
             <div className='imgs-visao'>
-            <img src={visao} alt="" />
-            <h2>VISÃO</h2>
+              <img src={visao} alt="" />
+              <h2>VISÃO</h2>
             </div>
 
-            <p className='text'>Ser referência em tecnologia de segurança escolar, reconhecida por oferecer soluções que aprimoram a proteção e a gestão das instituições de ensino, 
-            tornando-as mais seguras.</p>
+            <p className='text'>Ser referência em tecnologia de segurança escolar, reconhecida por oferecer soluções que aprimoram a proteção e a gestão das instituições de ensino,
+              tornando-as mais seguras.</p>
           </div>
 
           <div className="valores-quem-somos">
             <div className='imgs-valores'>
-            <img src={valores} alt="" />
-            <h2>VALORES</h2>
+              <img src={valores} alt="" />
+              <h2>VALORES</h2>
             </div>
 
-            <p className='text'>Segurança: Priorizar sempre a proteção e integridade 
-            dos alunos com responsabilidade, assumindo o compromisso com a ética e a privacidade no uso dos dados dos usuários. </p>
+            <p className='text'>Segurança: Priorizar sempre a proteção e integridade
+              dos alunos com responsabilidade, assumindo o compromisso com a ética e a privacidade no uso dos dados dos usuários. </p>
           </div>
 
 
@@ -59,9 +59,9 @@ export default function QuemSomos() {
             <img src="public\assets\images\university-colleagues-posing-university.png" alt="" />
 
             <div className='nossa-equipe-texts'>
-            <h2>NOSSA EQUIPE</h2>
-            <br />
-            <p>Juntos, nos unimos para desenvolver soluções que atendam às necessidades específicas das escolas e das famílias. Somos movidos pelo propósito de criar um ambiente escolar mais seguro e conectado, e acreditamos que a colaboração entre tecnologia e educação é fundamental.   </p>
+              <h2>NOSSA EQUIPE</h2>
+              <br />
+              <p>Juntos, nos unimos para desenvolver soluções que atendam às necessidades específicas das escolas e das famílias. Somos movidos pelo propósito de criar um ambiente escolar mais seguro e conectado, e acreditamos que a colaboração entre tecnologia e educação é fundamental.   </p>
             </div>
           </div>
         </div>
