@@ -90,7 +90,7 @@ body{
 
 .missao-quem-somos > .text{
     width: 60%;
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: white;
     font-weight: 400;
     line-height: normal;
@@ -123,7 +123,7 @@ body{
 
 .visao-quem-somos > .text{
     width: 60%;
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: #003366;
 }
 .visao-quem-somos  img {
@@ -159,7 +159,7 @@ body{
 
 .valores-quem-somos > .text{
     width: 60%;
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: white;
 }
 
@@ -187,7 +187,7 @@ body{
 .nossa-equipe-quem-somos > .nossa-equipe-texts{
      width: 100%;
     display: flex;
-    padding: 80px;
+    padding: 60px;
     flex-direction: column;
     justify-content:center;
 }
@@ -200,7 +200,7 @@ body{
 
 .nossa-equipe-texts p{
     font-weight: "Bebas";
-    font-size:1.5em;
+    font-size:1.8em;
     color: #003366;
 
 }

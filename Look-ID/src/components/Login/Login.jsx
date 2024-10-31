@@ -28,16 +28,11 @@ function Login() {
 
                 <div className={Styles.Input_login}>
                     <h1>E-mail*</h1>
-                    <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                    <input className={Styles.Input_login1} type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
                     <br />
                     <br />
                     <h1>Senha*</h1>
-                    <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-
-                    <div className={Styles.Lembrar}>
-                        <div className={Styles.box}></div>
-                        <h1>Lembrar-me</h1>
-                    </div>
+                    <input className={Styles.Input_login1} type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
                 </div>
 
                 <div className={Styles.botao_login}>

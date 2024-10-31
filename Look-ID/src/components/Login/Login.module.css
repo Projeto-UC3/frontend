@@ -46,6 +46,7 @@
 }
 
 .Input_login {
+    width: 40%;
     color: var(--Primria, #036);
     font-family: Roboto;
     font-size: 18px;
@@ -57,11 +58,7 @@
     }
 }
 
-.box {
-    width: 20px;
-    height: 20px;
-    background: var(--Terciria-II, #FEFFEA);
-}
+
 
 .botao_login{
     width: 25%;
@@ -88,4 +85,13 @@
 .buttonnn:hover{
     background-color: #000000;
     color: #FEFFEA;
+}
+
+.Input_login1{
+    width: 120%;
+    height: 7vh;
+    fill: var(--Terciria-II, #FEFFEA);
+    stroke-width: 4px;
+    stroke: #F19953;
+    border-radius: 30px;
 }

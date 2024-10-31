@@ -7,14 +7,17 @@ footer {
     color: #fff;
 }
 .footeerr {
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
 }
 .footeerr ul {
     list-style-type: none;
+    
+    
 }
 .footeerr > ul > li{
+    margin: 25px;
     font-weight: normal;
 }
 
@@ -42,9 +45,12 @@ footer {
     margin-bottom: 10px;
     border-radius: 10px;
     cursor: pointer;
+    
 }
 .footer-verdinho p {
     color: var(--primary-color);
     font-weight: bold;
     padding: 10px;
+    font-size: 1.4em;
+    text-align: center;
 }
