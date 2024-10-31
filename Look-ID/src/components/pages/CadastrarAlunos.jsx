@@ -34,7 +34,7 @@ function AlunosCadastrados() {
       if (response.ok) {
         setTimeout(() => {
           setRegisterMessage("");
-        }, 2000);
+        }, 3000);
       }
     } catch (error) {
       setRegisterMessage("Erro ao cadastrar aluno.");
@@ -60,13 +60,13 @@ function AlunosCadastrados() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Nome do Aluno"
-                className={Style.input}
+                className={Style.inputNameStudent}
               />
               <button
                 type="submit"
                 id="register-btn"
                 disabled={isLoading}
-                className={Style.button}
+                className={Style.buttonRegisterStudent}
               >
                 {isLoading ? "Registrando..." : "Registrar"}
               </button>

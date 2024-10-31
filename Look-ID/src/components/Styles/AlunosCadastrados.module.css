@@ -119,3 +119,88 @@ input::placeholder {
   justify-content: center;
   align-items: center;
 }
+
+.registerContainer{
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.form{
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+
+.inputNameStudent{
+  width: 50%;
+  height: 8vh;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.6rem;
+  background-color: #003366;
+  color: white;
+  padding: 20px 10px;
+}
+
+.buttonRegisterStudent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 4px solid var(--secondary-color);
+  padding: 10px;
+  width: 150px;
+  height: 8vh;
+  background-color: #003366;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.buttonValidarStudent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 4px solid var(--secondary-color);
+  padding: 10px;
+  width: 200px;
+  height: 15vh;
+  background-color: #003366;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.buttonRegisterStudent:hover{
+  transform: scale(1.1);
+}
+
+.buttonValidarStudent:hover{
+  transform: scale(1.1);
+}
+
+.registerMessage{
+  font-size: 2rem;
+}
+
+.accessContainer{
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6vh;
+}
+
+.accessMessage{
+  font-size: 2rem;
+}
