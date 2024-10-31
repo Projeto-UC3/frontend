@@ -10,7 +10,7 @@ function Login() {
     const handleLoginClick = () => {
         if (email === 'admin' && password === '12345678') {
             // Redirecionamento de página
-            navigate('/frequencia');
+            navigate('/listaalunos');
         } else {
             alert('Email ou senha incorretos.');
         }

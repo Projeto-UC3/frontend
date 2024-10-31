@@ -10,8 +10,9 @@ function AlunosCadastrados() {
       <div className={Style.mainContainer}>
         <NavBar />
         <section className={Style.container}>
-          {/* <div className={Style.sair}><Sair /></div> */}
-          <h1>Lista de Alunos Cadastrados</h1>
+          <div className={Style.divTitle}>
+            <h1>Lista de Alunos Cadastrados</h1>
+          </div>
           <div className={Style.title}>
             <h3>Nome</h3>
             <div className={Style.title2}>
@@ -20,6 +21,9 @@ function AlunosCadastrados() {
             </div>
           </div>
           <div className={Style.alunosSection}>
+            <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />
+            <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />
+            <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />
             <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />
             <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />
             <Alunos nome="Gabriel Almeida Costa" ra="123.456.789" turma="Equipe 1" />

@@ -21,8 +21,11 @@ function NavBar() {
             <Link to='/validacao'>
                 <PrimaryButton icon={id} text='Validação' />
             </Link>
-            <Link to='/lista-alunos'>
+            <Link to='/listaalunos'>
                 <PrimaryButton icon={book} text='Lista de Alunos' />
+            </Link>
+            <Link to='/'>
+                <PrimaryButton icon={book} text='Voltar' />
             </Link>
         </nav>
     );
