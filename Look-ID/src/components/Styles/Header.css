@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url(../../../public/assets/font/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
 header {
     background-color: var(--primary-color);
     height: 80px;
@@ -78,10 +83,13 @@ ul li:hover {
     flex-direction: column;
 }
 .parte-home img {
-    width: 500px;
+    width: 480px;
 }
-.classe-numero1 > h1 {
-    width: 500px;
+.classe-numero1 > h2 {
+    width: 390px;
+    font-weight: normal;
+    font-size: 3em;
+    font-family: 'Bebas', sans-serif;
 }
 .classe1 {
     display: flex;
@@ -90,29 +98,38 @@ ul li:hover {
     margin: 40px;
     justify-content: space-around;
 }
+.classe-numero4 h1{
+    font-family: 'Bebas';
+    width: 400px;
+    font-weight: normal;
+    font-size: 3.4em;
+}
+.classe-numero4 {
+    display: flex;
+    flex-direction: column;
+}
+.classe-numero4 p {
+    width: 500px;
+    font-weight: 400;
+    font-size: 1.4em;
+}
 .paragrafo-img > p {
     margin-top: 20px;
-    font-weight: 800;
+    font-weight: 400;
     width: 400px;
     font-size: 1.3em;
     color: #003366;
 }
 .paragrafo-img > h1 {
-    width: 500px;
+    width: 400px;
+    font-weight: normal;
+    font-size: 3em;
+    font-family: 'Bebas';
 }
 
-.classe-numero1 > p {
-    margin-top: 20px;
-    font-weight: 800;
-    width: 400px;
-    font-size: 1.3em;
-    color: #003366;
-}
-.classe02 {
-    height: 300px;
-}
+
 .alouuu > div > img {
-    width: 280px;
+    width: 220px;
 }
 .alouuu p {
     margin-top: 20px;
@@ -124,6 +141,7 @@ ul li:hover {
     background-color: var(--tertiary-color); 
     border-radius: 20px;
     height: 560px;
+    width: 340px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -134,7 +152,7 @@ ul li:hover {
     display: flex;
     margin-top: 50px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 30px;
     margin: 30px;
 

@@ -26,3 +26,24 @@ footer {
 .img-footer img {
     width: 170px;
 }
+.footer-imgss img {
+    margin-right: 20px;
+    width: 2em;
+}
+
+.footer-imgss {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.footer-verdinho {
+    background-color: var(--secondary-color);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.footer-verdinho p {
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 10px;
+}

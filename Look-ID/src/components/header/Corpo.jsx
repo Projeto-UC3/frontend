@@ -7,7 +7,7 @@ function Corpo() {
             <main className='parte-home'>
                 <div className='classe1'>
                     <div className='classe-numero1'>
-                        <h1>SEGURANÇA EM TODOS OS ESPAÇOS DA SUA ESCOLA</h1>
+                        <h2>SEGURANÇA EM TODOS OS ESPAÇOS DA SUA ESCOLA</h2>
                     </div>
                     <div className=''>
                         <img src="assets/images/alunos-img.svg" alt="foto de alunos" />
@@ -16,7 +16,7 @@ function Corpo() {
                 <div className='classe1'>
 
                     <div className='classe02'>
-                        <img src="assets/images/aluno-sala.png" alt="foto de alunos" />
+                        <img src="assets/images/imagens-alunos.svg" alt="foto de alunos" />
                     </div>
                     <div className='paragrafo-img'>
                         <h1>O QUE FAZEMOS?</h1>
@@ -43,9 +43,9 @@ function Corpo() {
                     <div className=''>
                         <img src="assets/images/alunasrindo.svg" alt="foto de alunos" />
                     </div>
-                    <div className='classe-numero1'>
+                    <div className='classe-numero4'>
                         <h1>COMO IMPLEMENTAMOS NOSSO SISTEMA NA SUA ESCOLA?</h1>
-                        <p>Em uma escola onde a segurança dos alunos é sempre uma prioridade, o Nexus oferece uma solução ao seu alcance. Com nossa plataforma inovadora, você acompanha a segurança em tempo real com apenas um clique!</p>
+                        <p>Em uma escola onde a segurança dos alunos é sempre uma prioridade, o Look-ID oferece uma solução ao seu alcance. Com nossa plataforma inovadora, você acompanha a segurança em tempo real com apenas um clique!</p>
                     </div>
                 </div>
                 <div className='classe1'>

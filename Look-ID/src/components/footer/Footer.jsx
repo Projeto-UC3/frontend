@@ -30,6 +30,16 @@ function Footer() {
                     <li>Rua Tito, 54 - Lapa, SP</li>
                     <li>Política de privacidade</li>
                 </ul>
+                <div className='footer-imgss'>
+                    <div>
+                        <img src="assets/images/face.svg" alt="" />
+                        <img src="assets/images/insta.svg" alt="" />
+                        <img src="assets/images/linkedin.svg" alt="" />
+                    </div>
+                    <div className='footer-verdinho'>
+                        <p>Fale Conosco</p>
+                    </div>
+                </div>
             </div>
         </footer>
     )
