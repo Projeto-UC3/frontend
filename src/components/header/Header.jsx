@@ -5,7 +5,7 @@ function Header() {
         <>
             <header>
                 <div className='logo'>
-                    <Link to='/'><img src="assets/images/logo-look.svg" alt="" /></Link>
+                    <Link to='/'><img src="./assets/images/logo-look.svg" alt="" /></Link>
                 </div>
                 <nav>
                     <ul className='link-nav'>

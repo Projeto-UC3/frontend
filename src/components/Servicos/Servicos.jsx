@@ -13,7 +13,7 @@ function Servicos() {
     return (
         <>
             <section className={Style.area_imagem}>
-                <img className={Style.imagemServicos} src="assets/images/img-servicos.png" alt="Segurança que se destaca: vigilância escolar em tempo real, com clareza e precisão." />
+                <img className={Style.imagemServicos} src="./assets/images/img-servicos.png" alt="Segurança que se destaca: vigilância escolar em tempo real, com clareza e precisão." />
             </section>
 
             <p className={Style.nossosServicos}>Nossos Serviços</p>

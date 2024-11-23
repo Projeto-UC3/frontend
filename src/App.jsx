@@ -38,7 +38,7 @@ function AppContent() {
 function App() {
   return (
     <main className="h1-h1">
-      <Router>
+      <Router basename="/frontend/">
         <AppContent />
       </Router>
     </main>

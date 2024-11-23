@@ -4,7 +4,7 @@ function Footer() {
     return(
         <footer>
             <div className='img-footer'>
-                <img src="assets/images/logo-footer.svg" alt="logo" />
+                <img src="./assets/images/logo-footer.svg" alt="logo" />
             </div>
             <div className='footeerr'>
                 <ul>
