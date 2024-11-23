@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/frontend/assets/logo-look-D26zICBo.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Look-ID</title>
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <script type="module" crossorigin src="/frontend/assets/index-9JGfgkSf.js"></script>
+    <link rel="stylesheet" crossorigin href="/frontend/assets/index-Dk6leVsA.css">
+  </head>
+  <body>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
